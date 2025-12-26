@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Identity Review</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+    .box {
+      max-width: 480px;
+      margin: 80px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #c62828;
+      margin-top: 0;
+    }
+    .ok {
+      color: #2e7d32;
+      font-weight: bold;
+    }
+    .small {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>❌ Simulation Failed</h1>
+
+    <p>You clicked a link in a simulated phishing email.</p>
+
+    <p class="small">
+      This was a <strong>security awareness test</strong>.  
+      No information was collected. No login existed.
+    </p>
+
+    <hr>
+
+    <p><strong>Red flags you missed:</strong></p>
+    <ul>
+      <li>Generic sender address</li>
+      <li>No company name</li>
+      <li>Vague request</li>
+      <li>Unverified link</li>
+    </ul>
+
+    <p class="ok">Lesson: Always inspect the sender and links.</p>
+  </div>
+</body>
+</html>
